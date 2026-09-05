@@ -1,5 +1,5 @@
 class Solution {
-public://21
+public:
     int firstStableIndex(vector<int>& nums, int k) {
         int n=nums.size();
         vector<int> minv(n);
