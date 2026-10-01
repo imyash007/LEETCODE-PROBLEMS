@@ -11,7 +11,9 @@ public:
                 if (st.empty())
                     return false;
 
-                if (ch == ')' && st.top() == '(' || ch == ']' && st.top() == '[' || ch == '}' && st.top() == '{') {
+                if (ch == ')' && st.top() == '(' ||
+                    ch == ']' && st.top() == '[' ||
+                    ch == '}' && st.top() == '{') {
                     st.pop();
                 } else {
                     return false;
